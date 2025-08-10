@@ -460,7 +460,7 @@ class RecruitmentPortal {
         const dashboards = {
             'admin': 'admin-dashboard.html',
             'recruiter': 'recruiter-dashboard.html',
-            'hiring_manager': 'hiring-manager-dashboard.html',
+            'hiring_manager': 'recruiter-dashboard.html',
             'candidate': 'candidate-dashboard.html'
         };
         return dashboards[role] || 'candidate-dashboard.html';
